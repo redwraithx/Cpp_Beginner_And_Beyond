@@ -1,0 +1,1 @@
+../build-Debug/66_ArithmeticOperators-EursToUsd/main.cpp.o   

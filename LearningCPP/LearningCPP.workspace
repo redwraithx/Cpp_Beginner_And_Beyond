@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="LearningCPP" Database="" Version="10000">
+  <VirtualDirectory Name="Section4_GettingStarted">
+    <Project Name="27_FirstProgram" Path="27_FirstProgram/27_FirstProgram.project" Active="No"/>
+    <Project Name="29_CompilerErrors" Path="29_CompilerErrors/29_CompilerErrors.project" Active="No"/>
+    <Project Name="34_SectionChallenge" Path="34_SectionChallenge/34_SectionChallenge.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section6_VariablesAndConstants">
+    <Project Name="45_DeclaringAndInitializingVariables" Path="45_DeclaringAndInitializingVariables/45_DeclaringAndInitializingVariables.project" Active="No"/>
+    <Project Name="47_BuiltInPrimitiveTypes" Path="47_BuiltInPrimitiveTypes/47_BuiltInPrimitiveTypes.project" Active="No"/>
+    <Project Name="48_MinMaxValuesUsingClimits" Path="48_MinMaxValuesUsingClimits/48_MinMaxValuesUsingClimits.project" Active="No"/>
+    <Project Name="50_DeclaringAndUsingConstants" Path="50_DeclaringAndUsingConstants/50_DeclaringAndUsingConstants.project" Active="No"/>
+    <Project Name="51_SectionChallenge" Path="51_SectionChallenge/51_SectionChallenge.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section7_ArraysAndVectors">
+    <Project Name="59_AccessAndModifyVectorElements" Path="59_AccessAndModifyVectorElements/59_AccessAndModifyVectorElements.project" Active="No"/>
+    <Project Name="60_SectionChallenge" Path="60_SectionChallenge/60_SectionChallenge.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section8_StatementsAndOperators">
+    <Project Name="65_AssignmentOperator" Path="65_AssignmentOperator/65_AssignmentOperator.project" Active="No"/>
+    <Project Name="66_ArithmeticOperators" Path="66_ArithmeticOperators/66_ArithmeticOperators.project" Active="No"/>
+    <Project Name="66_ArithmeticOperators-EursToUsd" Path="66_ArithmeticOperators-EursToUsd/66_ArithmeticOperators-EursToUsd.project" Active="No"/>
+    <Project Name="67_IncrementAndDecrementOperators" Path="67_IncrementAndDecrementOperators/67_IncrementAndDecrementOperators.project" Active="No"/>
+    <Project Name="68_MixedTypeExpressionsAndConversions" Path="68_MixedTypeExpressionsAndConversions/68_MixedTypeExpressionsAndConversions.project" Active="No"/>
+    <Project Name="69_TestingForEquality" Path="69_TestingForEquality/69_TestingForEquality.project" Active="No"/>
+    <Project Name="70_RelationalOperators" Path="70_RelationalOperators/70_RelationalOperators.project" Active="No"/>
+    <Project Name="71_LogicalOperators" Path="71_LogicalOperators/71_LogicalOperators.project" Active="No"/>
+    <Project Name="Section8_ProgrammingChallenge" Path="Section8_ProgrammingChallenge/Section8_ProgrammingChallenge.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="MyTestingProjects">
+    <Project Name="HashSetProblem_2" Path="HashSetProblem_2/HashSetProblem_2.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section9_ControllingProgramFlow">
+    <Project Name="77_IfStatement" Path="77_IfStatement/77_IfStatement.project" Active="No"/>
+    <Project Name="78_IfElseStatment" Path="78_IfElseStatment/78_IfElseStatment.project" Active="No"/>
+    <Project Name="79_NestedIfStatements" Path="79_NestedIfStatements/79_NestedIfStatements.project" Active="No"/>
+    <Project Name="79_ShippingCostCalculator" Path="79_ShippingCostCalculator/79_ShippingCostCalculator.project" Active="No"/>
+    <Project Name="80_SwitchCaseStatement" Path="80_SwitchCaseStatement/80_SwitchCaseStatement.project" Active="No"/>
+    <Project Name="80_SwitchCaseWithEnumeration" Path="80_SwitchCaseWithEnumeration/80_SwitchCaseWithEnumeration.project" Active="No"/>
+    <Project Name="81_ConditionalOperator" Path="81_ConditionalOperator/81_ConditionalOperator.project" Active="No"/>
+    <Project Name="83_ForLoop" Path="83_ForLoop/83_ForLoop.project" Active="No"/>
+    <Project Name="84_RangeBasedForLoop" Path="84_RangeBasedForLoop/84_RangeBasedForLoop.project" Active="Yes"/>
+  </VirtualDirectory>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="27_FirstProgram" ConfigName="Debug"/>
+      <Project Name="29_CompilerErrors" ConfigName="Debug"/>
+      <Project Name="34_SectionChallenge" ConfigName="Debug"/>
+      <Project Name="45_DeclaringAndInitializingVariables" ConfigName="Debug"/>
+      <Project Name="47_BuiltInPrimitiveTypes" ConfigName="Debug"/>
+      <Project Name="48_MinMaxValuesUsingClimits" ConfigName="Debug"/>
+      <Project Name="50_DeclaringAndUsingConstants" ConfigName="Debug"/>
+      <Project Name="51_SectionChallenge" ConfigName="Debug"/>
+      <Project Name="59_AccessAndModifyVectorElements" ConfigName="Debug"/>
+      <Project Name="60_SectionChallenge" ConfigName="Debug"/>
+      <Project Name="HashSetProblem_2" ConfigName="Debug"/>
+      <Project Name="65_AssignmentOperator" ConfigName="Debug"/>
+      <Project Name="66_ArithmeticOperators" ConfigName="Debug"/>
+      <Project Name="66_ArithmeticOperators-EursToUsd" ConfigName="Debug"/>
+      <Project Name="67_IncrementAndDecrementOperators" ConfigName="Debug"/>
+      <Project Name="68_MixedTypeExpressionsAndConversions" ConfigName="Debug"/>
+      <Project Name="69_TestingForEquality" ConfigName="Debug"/>
+      <Project Name="70_RelationalOperators" ConfigName="Debug"/>
+      <Project Name="71_LogicalOperators" ConfigName="Debug"/>
+      <Project Name="Section8_ProgrammingChallenge" ConfigName="Debug"/>
+      <Project Name="77_IfStatement" ConfigName="Debug"/>
+      <Project Name="78_IfElseStatment" ConfigName="Debug"/>
+      <Project Name="79_NestedIfStatements" ConfigName="Debug"/>
+      <Project Name="79_ShippingCostCalculator" ConfigName="Debug"/>
+      <Project Name="80_SwitchCaseStatement" ConfigName="Debug"/>
+      <Project Name="80_SwitchCaseWithEnumeration" ConfigName="Debug"/>
+      <Project Name="81_ConditionalOperator" ConfigName="Debug"/>
+      <Project Name="83_ForLoop" ConfigName="Debug"/>
+      <Project Name="84_RangeBasedForLoop" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="27_FirstProgram" ConfigName="Release"/>
+      <Project Name="29_CompilerErrors" ConfigName="Release"/>
+      <Project Name="34_SectionChallenge" ConfigName="Release"/>
+      <Project Name="45_DeclaringAndInitializingVariables" ConfigName="Release"/>
+      <Project Name="47_BuiltInPrimitiveTypes" ConfigName="Release"/>
+      <Project Name="48_MinMaxValuesUsingClimits" ConfigName="Release"/>
+      <Project Name="50_DeclaringAndUsingConstants" ConfigName="Release"/>
+      <Project Name="51_SectionChallenge" ConfigName="Release"/>
+      <Project Name="59_AccessAndModifyVectorElements" ConfigName="Release"/>
+      <Project Name="60_SectionChallenge" ConfigName="Release"/>
+      <Project Name="HashSetProblem_2" ConfigName="Release"/>
+      <Project Name="65_AssignmentOperator" ConfigName="Release"/>
+      <Project Name="66_ArithmeticOperators" ConfigName="Release"/>
+      <Project Name="66_ArithmeticOperators-EursToUsd" ConfigName="Release"/>
+      <Project Name="67_IncrementAndDecrementOperators" ConfigName="Release"/>
+      <Project Name="68_MixedTypeExpressionsAndConversions" ConfigName="Release"/>
+      <Project Name="69_TestingForEquality" ConfigName="Release"/>
+      <Project Name="70_RelationalOperators" ConfigName="Release"/>
+      <Project Name="71_LogicalOperators" ConfigName="Release"/>
+      <Project Name="Section8_ProgrammingChallenge" ConfigName="Release"/>
+      <Project Name="77_IfStatement" ConfigName="Release"/>
+      <Project Name="78_IfElseStatment" ConfigName="Release"/>
+      <Project Name="79_NestedIfStatements" ConfigName="Release"/>
+      <Project Name="79_ShippingCostCalculator" ConfigName="Release"/>
+      <Project Name="80_SwitchCaseStatement" ConfigName="Release"/>
+      <Project Name="80_SwitchCaseWithEnumeration" ConfigName="Release"/>
+      <Project Name="81_ConditionalOperator" ConfigName="Release"/>
+      <Project Name="83_ForLoop" ConfigName="Release"/>
+      <Project Name="84_RangeBasedForLoop" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

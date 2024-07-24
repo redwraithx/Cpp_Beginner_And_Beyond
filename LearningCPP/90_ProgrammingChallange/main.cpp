@@ -105,7 +105,7 @@ int main()
         cin >> selection;
         
         
-        
+        // if else would have been smaller but both would work for this challenge.
         // use a switch statment for checking the selection.. and use a bool if we are to quit application.
         switch(selection)
         {
@@ -116,7 +116,6 @@ int main()
                 if(data_collection.size() == 0)
                 {
                     cout << "\n[] - the list is empty" << endl;
-                  
                 }
                 else
                 {
@@ -124,10 +123,8 @@ int main()
                     for(auto data : data_collection)
                         cout << data << " ";
                     
-                    cout << "]" << endl;
-                    
+                    cout << "]" << endl;          
                 }
-                
                 break;
             }
             case 'F':
@@ -158,10 +155,8 @@ int main()
                     if(found_counter > 0)
                         cout << endl << selection << " was found " << found_counter << " times." << endl;
                     else
-                        cout << "\nThat number was not found in the list." << endl;
-                    
-                }
-                
+                        cout << "\nThat number was not found in the list." << endl;        
+                }               
                 break;
             }
             case 'A':
@@ -227,10 +222,7 @@ int main()
                     }
                     
                     cout << "\n" << number_to_remove << " was not found in the list" << endl;
-                    
                 }
-                
-                
                 
                 break;
             }
@@ -249,7 +241,6 @@ int main()
                 if(data_collection.size() == 0)
                 {
                     cout << "\nUnable to calculate the mean - no data" << endl;
-                
                 }
                 else
                 {
@@ -324,12 +315,9 @@ int main()
                         }
                     }
                     
-                    
                     // display the largest number
                     cout << "\nThe largest number is " << largest_number << endl;
                 }
-                
-                
                 
                 break;
             }
@@ -346,12 +334,9 @@ int main()
         
         if(quit_app == true)
             break;
-    
     }
     
-    cout << "\nGoodbye..." << endl;
-    
-    cout << endl;
+    cout << "\nGoodbye..." << endl << endl;
     
     return 0;
 }

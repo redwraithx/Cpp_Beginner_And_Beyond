@@ -39,7 +39,13 @@
     <Project Name="80_SwitchCaseWithEnumeration" Path="80_SwitchCaseWithEnumeration/80_SwitchCaseWithEnumeration.project" Active="No"/>
     <Project Name="81_ConditionalOperator" Path="81_ConditionalOperator/81_ConditionalOperator.project" Active="No"/>
     <Project Name="83_ForLoop" Path="83_ForLoop/83_ForLoop.project" Active="No"/>
-    <Project Name="84_RangeBasedForLoop" Path="84_RangeBasedForLoop/84_RangeBasedForLoop.project" Active="Yes"/>
+    <Project Name="84_RangeBasedForLoop" Path="84_RangeBasedForLoop/84_RangeBasedForLoop.project" Active="No"/>
+    <Project Name="85_WhileLoops" Path="85_WhileLoops/85_WhileLoops.project" Active="No"/>
+    <Project Name="86_DoWhileLoops" Path="86_DoWhileLoops/86_DoWhileLoops.project" Active="No"/>
+    <Project Name="89_NestedLoops" Path="89_NestedLoops/89_NestedLoops.project" Active="No"/>
+    <Project Name="89_NestedLoops_Histogram" Path="89_NestedLoops_Histogram/89_NestedLoops_Histogram.project" Active="No"/>
+    <Project Name="ProgrammingChallange" Path="ProgrammingChallange/ProgrammingChallange.project" Active="No"/>
+    <Project Name="90_ProgrammingChallange" Path="90_ProgrammingChallange/90_ProgrammingChallange.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -73,6 +79,12 @@
       <Project Name="81_ConditionalOperator" ConfigName="Debug"/>
       <Project Name="83_ForLoop" ConfigName="Debug"/>
       <Project Name="84_RangeBasedForLoop" ConfigName="Debug"/>
+      <Project Name="85_WhileLoops" ConfigName="Debug"/>
+      <Project Name="86_DoWhileLoops" ConfigName="Debug"/>
+      <Project Name="89_NestedLoops" ConfigName="Debug"/>
+      <Project Name="89_NestedLoops_Histogram" ConfigName="Debug"/>
+      <Project Name="89_ProgrammingChallenge" ConfigName="Debug"/>
+      <Project Name="90_ProgrammingChallange" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -105,6 +117,12 @@
       <Project Name="81_ConditionalOperator" ConfigName="Release"/>
       <Project Name="83_ForLoop" ConfigName="Release"/>
       <Project Name="84_RangeBasedForLoop" ConfigName="Release"/>
+      <Project Name="85_WhileLoops" ConfigName="Release"/>
+      <Project Name="86_DoWhileLoops" ConfigName="Release"/>
+      <Project Name="89_NestedLoops" ConfigName="Release"/>
+      <Project Name="89_NestedLoops_Histogram" ConfigName="Release"/>
+      <Project Name="89_ProgrammingChallenge" ConfigName="Release"/>
+      <Project Name="90_ProgrammingChallange" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

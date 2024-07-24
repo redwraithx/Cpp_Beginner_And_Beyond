@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 84_RangeBasedForLoop - Debug ]----------"
-	@cd "84_RangeBasedForLoop" && "$(MAKE)" -f  "84_RangeBasedForLoop.mk"
+	@echo "----------Building project:[ 90_ProgrammingChallange - Debug ]----------"
+	@cd "90_ProgrammingChallange" && "$(MAKE)" -f  "90_ProgrammingChallange.mk"
 clean:
-	@echo "----------Cleaning project:[ 84_RangeBasedForLoop - Debug ]----------"
-	@cd "84_RangeBasedForLoop" && "$(MAKE)" -f  "84_RangeBasedForLoop.mk" clean
+	@echo "----------Cleaning project:[ 90_ProgrammingChallange - Debug ]----------"
+	@cd "90_ProgrammingChallange" && "$(MAKE)" -f  "90_ProgrammingChallange.mk" clean

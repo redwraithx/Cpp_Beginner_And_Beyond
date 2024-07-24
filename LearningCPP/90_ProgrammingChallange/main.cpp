@@ -216,7 +216,7 @@ int main()
                     
                     for(long unsigned int i {}; i < data_collection.size(); i++)
                     {
-                        if(number_to_remove == data_collection[i])
+                        if(number_to_remove == data_collection.at(i))
                         {
                             // rmeoving item from the vector, using the iterator just add the index value to get your target element.
                             data_collection.erase(data_collection.begin() + i);
@@ -285,14 +285,14 @@ int main()
                 else
                 {
                     // keep track of the smallest number in a variable
-                    int smallest_number { data_collection[0] };
+                    int smallest_number { data_collection.at(0) };
                     
                     if(data_collection.size() > 1)
                     {
                         for(long unsigned int i {1}; i < data_collection.size(); i++)
                         {
-                            if(smallest_number > data_collection[i])
-                                smallest_number = data_collection[i];
+                            if(smallest_number > data_collection.at(i))
+                                smallest_number = data_collection.at(i);
                         }
                     }
                     
@@ -313,7 +313,7 @@ int main()
                 else
                 {
                     // keep track of the lergest number
-                    int largest_number { data_collection[0] };
+                    int largest_number { data_collection.at(0) };
                     
                     if(data_collection.size() > 1)
                     {

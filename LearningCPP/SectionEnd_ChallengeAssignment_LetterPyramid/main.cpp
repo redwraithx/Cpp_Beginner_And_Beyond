@@ -1,3 +1,4 @@
+// NOTE: Instructors solution at the bottom
 
 
 /*
@@ -58,7 +59,6 @@
 #include <iostream>
 #include <string>
 
-
 // trying to use only what i need for using statements and not the whole class as a challenge for my self.
 using std::cout;
 using std::cin;
@@ -78,10 +78,13 @@ int main()
         getline(cin, input_data);
     } while(input_data.length() <= 0);
     
+    // set variables that will carry over per loop
     size_t current_index {};
     size_t length_to_center_minus_one { input_data.length() - 1 };
     size_t final_string_length { length_to_center_minus_one + input_data.length() };
+    size_t current_spaces_counter {};
     
+    // get number of loops to complete run
     size_t final_loop_count {};
     for(int i {}, j {1}; i < static_cast<int>(input_data.length()); i++, j++)
     {
@@ -89,28 +92,23 @@ int main()
     }
     cout << "final loop count: " << final_loop_count << endl;
     
-    size_t current_spaces_counter {};
-    
-    
-    
-    
     bool processing_string { true };
     
     while(processing_string)
     {
-        // update spaces count
+        // update spaces count but only up to half the total string size minus 1, or its 0 spaces
         if(current_index  < final_string_length)
             current_spaces_counter = ((length_to_center_minus_one - current_index) >= 0 ? length_to_center_minus_one - current_index : 0);
         else
             current_spaces_counter = 0;
         
-        // set space string
+        // set space string size
         string spaces ((current_spaces_counter > 0 ? current_spaces_counter : 0), ' ');
         
+        // variables for this loops iteration
         string current_string {};
         string left_side_string {};
         string right_side_string {};
-        
         
         // process current index of the input data
         if(current_index == 0)
@@ -132,7 +130,6 @@ int main()
             {
                 right_side_string += get_right_sidestring.at(i);
             }
-            
         }
         
         // create the new string
@@ -141,10 +138,9 @@ int main()
         // display the full string
         cout << current_string << endl;
         
-        
-        
         current_index++;
         
+        // test for end case
         if(current_index >= final_loop_count)
         {
             processing_string = false;
@@ -152,10 +148,63 @@ int main()
             
     }
     
-    
-    
-    
     cout << endl;
     
     return 0;
 }
+
+
+
+// given solution
+
+/*
+
+// Letter Pyramid
+// Written by Frank J. Mitropoulos
+
+#include <iostream>
+#include <string>
+
+
+int main()
+{
+    std::string letters{};
+
+    std::cout << "Enter a string of letters so I can create a Letter Pyramid from it: ";
+    getline(std::cin, letters);
+
+    size_t num_letters = letters.length();
+
+    int position {0};
+
+    // for each letter in the string
+    for (char c: letters) {
+
+        size_t num_spaces = num_letters - position;
+        while (num_spaces > 0) {
+            std::cout << " ";
+            --num_spaces;
+        }
+
+        // Display in order up to the current character
+        for (size_t j=0; j < position; j++) {
+            std::cout << letters.at(j);
+        }
+
+        // Display the current 'center' character
+        std::cout << c;
+
+        // Display the remaining characters in reverse order
+        for (int j=position-1; j >=0; --j) {
+            // You can use this line to get rid of the size_t vs int warning if you want
+            auto k = static_cast<size_t>(j);
+            std::cout << letters.at(k);
+        }
+
+        std::cout << std::endl; // Don't forget the end line
+        ++position;
+    }
+
+    return 0;
+}
+ */

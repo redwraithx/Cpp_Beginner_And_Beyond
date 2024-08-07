@@ -54,7 +54,16 @@
     <Project Name="99_WorkingWithCppStrings" Path="99_WorkingWithCppStrings/99_WorkingWithCppStrings.project" Active="No"/>
     <Project Name="99_SectionChallenge_SubstitutionCipher" Path="99_SectionChallenge_SubstitutionCipher/99_SectionChallenge_SubstitutionCipher.project" Active="No"/>
     <Project Name="99_SectionChallenge_GivenSolution" Path="99_SectionChallenge_GivenSolution/99_SectionChallenge_GivenSolution.project" Active="No"/>
-    <Project Name="SectionEnd_ChallengeAssignment_LetterPyramid" Path="SectionEnd_ChallengeAssignment_LetterPyramid/SectionEnd_ChallengeAssignment_LetterPyramid.project" Active="Yes"/>
+    <Project Name="SectionEnd_ChallengeAssignment_LetterPyramid" Path="SectionEnd_ChallengeAssignment_LetterPyramid/SectionEnd_ChallengeAssignment_LetterPyramid.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section11_Functions">
+    <Project Name="102_WhatIsAFunction_MathExamples" Path="102_WhatIsAFunction_MathExamples/102_WhatIsAFunction_MathExamples.project" Active="No"/>
+    <Project Name="102_RandomSudoNumbers" Path="102_RandomSudoNumbers/102_RandomSudoNumbers.project" Active="No"/>
+    <Project Name="102_FunctionDefinition" Path="102_FunctionDefinition/102_FunctionDefinition.project" Active="No"/>
+    <Project Name="104_FunctionPrototypes" Path="104_FunctionPrototypes/104_FunctionPrototypes.project" Active="No"/>
+    <Project Name="105_FunctionParametersAndReturnStatements" Path="105_FunctionParametersAndReturnStatements/105_FunctionParametersAndReturnStatements.project" Active="No"/>
+    <Project Name="106_DefaultArgumentValues" Path="106_DefaultArgumentValues/106_DefaultArgumentValues.project" Active="No"/>
+    <Project Name="107_OverloadingFunctions" Path="107_OverloadingFunctions/107_OverloadingFunctions.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -101,6 +110,13 @@
       <Project Name="99_SectionChallenge_SubstitutionCipher" ConfigName="Debug"/>
       <Project Name="99_SectionChallenge_GivenSolution" ConfigName="Debug"/>
       <Project Name="SectionEnd_ChallengeAssignment_LetterPyramid" ConfigName="Debug"/>
+      <Project Name="102_WhatIsAFunction_MathExamples" ConfigName="Debug"/>
+      <Project Name="102_RandomSudoNumbers" ConfigName="Debug"/>
+      <Project Name="102_FunctionDefinition" ConfigName="Debug"/>
+      <Project Name="104_FunctionPrototypes" ConfigName="Debug"/>
+      <Project Name="105_FunctionParametersAndReturnStatements" ConfigName="Debug"/>
+      <Project Name="106_DefaultArgumentValues" ConfigName="Debug"/>
+      <Project Name="107_OverloadingFunctions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -146,6 +162,13 @@
       <Project Name="99_SectionChallenge_SubstitutionCipher" ConfigName="Release"/>
       <Project Name="99_SectionChallenge_GivenSolution" ConfigName="Release"/>
       <Project Name="SectionEnd_ChallengeAssignment_LetterPyramid" ConfigName="Release"/>
+      <Project Name="102_WhatIsAFunction_MathExamples" ConfigName="Release"/>
+      <Project Name="102_RandomSudoNumbers" ConfigName="Release"/>
+      <Project Name="102_FunctionDefinition" ConfigName="Release"/>
+      <Project Name="104_FunctionPrototypes" ConfigName="Release"/>
+      <Project Name="105_FunctionParametersAndReturnStatements" ConfigName="Release"/>
+      <Project Name="106_DefaultArgumentValues" ConfigName="Release"/>
+      <Project Name="107_OverloadingFunctions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -4,9 +4,30 @@
   <wxString Value="D:\GameDev\LearningLanguages\CPP_BeginnerAndBeyond\WorkSpaces\LearningCPP\LearningCPP.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
+      <wxString Value="D:\GameDev\LearningLanguages\CPP_BeginnerAndBeyond\WorkSpaces\LearningCPP\SectionEnd_ChallengeAssignment_LetterPyramid\main.cpp" Name="FileName"/>
+      <int Value="96" Name="FirstVisibleLine"/>
+      <int Value="79" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
       <wxString Value="D:\GameDev\LearningLanguages\CPP_BeginnerAndBeyond\WorkSpaces\LearningCPP\71_LogicalOperators\main.cpp" Name="FileName"/>
-      <int Value="85" Name="FirstVisibleLine"/>
-      <int Value="98" Name="CurrentLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\GameDev\LearningLanguages\CPP_BeginnerAndBeyond\WorkSpaces\LearningCPP\99_SectionChallenge_SubstitutionCipher\main.cpp" Name="FileName"/>
+      <int Value="25" Name="FirstVisibleLine"/>
+      <int Value="38" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="D:\GameDev\LearningLanguages\CPP_BeginnerAndBeyond\WorkSpaces\LearningCPP\99_WorkingWithCppStrings\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

@@ -45,7 +45,16 @@
     <Project Name="89_NestedLoops" Path="89_NestedLoops/89_NestedLoops.project" Active="No"/>
     <Project Name="89_NestedLoops_Histogram" Path="89_NestedLoops_Histogram/89_NestedLoops_Histogram.project" Active="No"/>
     <Project Name="ProgrammingChallange" Path="ProgrammingChallange/ProgrammingChallange.project" Active="No"/>
-    <Project Name="90_ProgrammingChallange" Path="90_ProgrammingChallange/90_ProgrammingChallange.project" Active="Yes"/>
+    <Project Name="90_ProgrammingChallange" Path="90_ProgrammingChallange/90_ProgrammingChallange.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section10_CharactersAndStrings">
+    <Project Name="94_CCTypeFunctions" Path="94_CCTypeFunctions/94_CCTypeFunctions.project" Active="No"/>
+    <Project Name="96_WorkingWithCStyleStrings" Path="96_WorkingWithCStyleStrings/96_WorkingWithCStyleStrings.project" Active="No"/>
+    <Project Name="97_CppStringsIntro" Path="97_CppStringsIntro/97_CppStringsIntro.project" Active="No"/>
+    <Project Name="99_WorkingWithCppStrings" Path="99_WorkingWithCppStrings/99_WorkingWithCppStrings.project" Active="No"/>
+    <Project Name="99_SectionChallenge_SubstitutionCipher" Path="99_SectionChallenge_SubstitutionCipher/99_SectionChallenge_SubstitutionCipher.project" Active="No"/>
+    <Project Name="99_SectionChallenge_GivenSolution" Path="99_SectionChallenge_GivenSolution/99_SectionChallenge_GivenSolution.project" Active="No"/>
+    <Project Name="SectionEnd_ChallengeAssignment_LetterPyramid" Path="SectionEnd_ChallengeAssignment_LetterPyramid/SectionEnd_ChallengeAssignment_LetterPyramid.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -85,6 +94,13 @@
       <Project Name="89_NestedLoops_Histogram" ConfigName="Debug"/>
       <Project Name="89_ProgrammingChallenge" ConfigName="Debug"/>
       <Project Name="90_ProgrammingChallange" ConfigName="Debug"/>
+      <Project Name="94_CCTypeFunctions" ConfigName="Debug"/>
+      <Project Name="96_WorkingWithCStyleStrings" ConfigName="Debug"/>
+      <Project Name="97_CppStringsIntro" ConfigName="Debug"/>
+      <Project Name="99_WorkingWithCppStrings" ConfigName="Debug"/>
+      <Project Name="99_SectionChallenge_SubstitutionCipher" ConfigName="Debug"/>
+      <Project Name="99_SectionChallenge_GivenSolution" ConfigName="Debug"/>
+      <Project Name="SectionEnd_ChallengeAssignment_LetterPyramid" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -123,6 +139,13 @@
       <Project Name="89_NestedLoops_Histogram" ConfigName="Release"/>
       <Project Name="89_ProgrammingChallenge" ConfigName="Release"/>
       <Project Name="90_ProgrammingChallange" ConfigName="Release"/>
+      <Project Name="94_CCTypeFunctions" ConfigName="Release"/>
+      <Project Name="96_WorkingWithCStyleStrings" ConfigName="Release"/>
+      <Project Name="97_CppStringsIntro" ConfigName="Release"/>
+      <Project Name="99_WorkingWithCppStrings" ConfigName="Release"/>
+      <Project Name="99_SectionChallenge_SubstitutionCipher" ConfigName="Release"/>
+      <Project Name="99_SectionChallenge_GivenSolution" ConfigName="Release"/>
+      <Project Name="SectionEnd_ChallengeAssignment_LetterPyramid" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

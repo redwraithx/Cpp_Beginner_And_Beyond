@@ -1,0 +1,1 @@
+../build-Debug/99_WorkingWithCppStrings/main.cpp.o   

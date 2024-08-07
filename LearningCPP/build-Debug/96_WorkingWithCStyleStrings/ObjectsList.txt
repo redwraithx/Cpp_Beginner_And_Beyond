@@ -1,0 +1,1 @@
+../build-Debug/96_WorkingWithCStyleStrings/main.cpp.o   
